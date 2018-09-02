@@ -1,0 +1,83 @@
+.logo {
+	width: 160px;
+	height: 95px;
+}
+
+.nav {
+	display: inline;
+	list-style-type: none;
+	padding: 120px 20px;
+	margin-top: 40px;
+}
+
+.imageCenter {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+#overlay {
+  position: absolute;
+  width: 100%;
+  height: 600px;
+  z-index: 1;
+}
+
+.imgB1 { 
+  position:absolute; 
+  width: 100%;
+  height: 600px;
+  top: 145px; 
+  left: 0px; 
+  z-index: 1;
+} 
+
+.imgA1 { 
+  position:absolute; 
+  width: 70%;
+  height: 70%;
+  transform: translate(20%,0%);
+  z-index: 5;
+}
+
+#pmain {
+  position: absolute;
+  top: 800px;
+  /*left: 200px;*/
+  line-height: 50px;
+  font-family: "arial";
+  height: auto;
+  width: 100%;
+  padding: 0px 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.right {
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+
+.marginAuto {
+	margin:auto;
+}
+
+.btn {
+  display: inline;
+  padding: 0px 20px;
+  margin-top: 30px;
+  border: none;
+  background: white;
+}
